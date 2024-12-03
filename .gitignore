@@ -27,7 +27,6 @@ config/modernfix-mixins.properties
 config/moreculling.toml
 /config/NoChatReports
 config/notenoughanimations.json
-config/packetfixer.properties
 config/rrls.toml
 config/rrp.properties
 config/skinlayers.json

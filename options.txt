@@ -42,7 +42,7 @@ narratorHotkey:true
 gamma:1.0
 renderDistance:32
 simulationDistance:32
-entityDistanceScaling:1.0
+entityDistanceScaling:5.0
 guiScale:3
 particles:0
 maxFps:260
