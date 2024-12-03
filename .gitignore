@@ -2,9 +2,13 @@
 /.fabric
 command_history.txt
 config/badoptimizations.txt
-/config/bbs/assets
+/config/bbs/assets/audio
+/config/bbs/assets/lang_editor
+/config/bbs/assets/particles
+/config/bbs/assets/models/player
 /config/bbs/movies
 /config/bbs/data
+/config/bbs/screenshots
 config/c2me.toml
 config/citresewn.json
 config/continuity.json
