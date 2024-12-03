@@ -1,0 +1,10 @@
+ngrokAuthtoken = ""
+
+[lanSettings]
+gameMode = "CREATIVE"
+onlineMode = true
+pvpEnabled = false
+tunnel = "NONE"
+port = 25565
+maxPlayers = 4
+motd = "${username} - ${world}"
