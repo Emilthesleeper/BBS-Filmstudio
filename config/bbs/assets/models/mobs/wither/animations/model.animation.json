@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"scale": 2
+				},
+				"head1": {
+					"rotation": ["query.head_pitch", "query.head_yaw", 0]
+				},
+				"head2": {
+					"rotation": ["-math.cos(query.anim_time * 135) * 2", 0, "-math.sin(query.anim_time * 135) * 2"]
+				},
+				"head3": {
+					"rotation": ["-2.5+math.cos(query.anim_time * 135) * 2", 0, "0+math.sin(query.anim_time * 135) * 2"]
+				},
+				"body2": {
+					"rotation": [30, 0, 0]
+				}
+			}
+		}
+	}
+}

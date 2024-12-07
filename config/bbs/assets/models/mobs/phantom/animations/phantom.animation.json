@@ -1,0 +1,114 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"wing0": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 10],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [0, 0, -10],
+							"easing": "linear"
+						},
+						"2.0": {
+							"vector": [0, 0, 10],
+							"easing": "linear"
+						}
+					}
+				},
+				"wingtip0": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 20],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [0, 0, -20],
+							"easing": "linear"
+						},
+						"2.0": {
+							"vector": [0, 0, 20],
+							"easing": "linear"
+						}
+					}
+				},
+				"wing1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -10],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [0, 0, 10],
+							"easing": "linear"
+						},
+						"2.0": {
+							"vector": [0, 0, -10],
+							"easing": "linear"
+						}
+					}
+				},
+				"wingtip1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -20],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [0, 0, 20],
+							"easing": "linear"
+						},
+						"2.0": {
+							"vector": [0, 0, -20],
+							"easing": "linear"
+						}
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": ["query.head_pitch", "query.head_yaw", 0],
+						"easing": "linear"
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": {
+							"vector": [-15, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [15, 0, 0],
+							"easing": "linear"
+						},
+						"2.0": {
+							"vector": [-15, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"tailtip": {
+					"rotation": {
+						"0.0": {
+							"vector": [-20, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [20, 0, 0],
+							"easing": "linear"
+						},
+						"2.0": {
+							"vector": [-20, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

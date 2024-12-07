@@ -1,0 +1,139 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.rabbit",
+				"texture_width": 64,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "bone",
+					"pivot": [0, 8, -1],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-2.5, 8, -6], "size": [5, 4, 5], "uv": [32, 0]}
+					],
+					"locators": {
+						"lead": [0, 8, -1]
+					}
+				},
+				{
+					"name": "nose",
+					"parent": "head",
+					"pivot": [0, 8, -1],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-0.5, 9.5, -6.5], "size": [1, 1, 1], "uv": [32, 9]}
+					]
+				},
+				{
+					"name": "earRight",
+					"parent": "head",
+					"pivot": [0, 8, -1],
+					"rotation": [0, -15, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-2.5, 12, -2], "size": [2, 5, 1], "uv": [58, 0]}
+					]
+				},
+				{
+					"name": "earLeft",
+					"parent": "head",
+					"pivot": [0, 8, -1],
+					"rotation": [0, 15, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [0.5, 12, -2], "size": [2, 5, 1], "uv": [52, 0]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "bone",
+					"pivot": [0, 5, 8],
+					"rotation": [-20, 0, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-3, 2, -2], "size": [6, 5, 10], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "haunchRight",
+					"parent": "body",
+					"pivot": [-3, 4.8, 3.5],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-4, 0.8, 3.5], "size": [2, 4, 5], "uv": [30, 15]}
+					]
+				},
+				{
+					"name": "rearFootRight",
+					"parent": "haunchRight",
+					"pivot": [-3, 4.8, 3.5],
+					"rotation": [20, 0, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-4, -1.7, -0.2], "size": [2, 1, 7], "uv": [26, 24]}
+					]
+				},
+				{
+					"name": "haunchLeft",
+					"parent": "body",
+					"pivot": [3, 4.9, 3.5],
+					"mirror": true,
+					"cubes": [
+						{"origin": [2, 0.9, 3.5], "size": [2, 4, 5], "uv": [16, 15]}
+					]
+				},
+				{
+					"name": "rearFootLeft",
+					"parent": "haunchLeft",
+					"pivot": [3, 4.9, 3.5],
+					"rotation": [20, 0, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [2, -1.6, -0.2], "size": [2, 1, 7], "uv": [8, 24]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "body",
+					"pivot": [0, 4, 7],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-1.5, 2.5, 7], "size": [3, 3, 2], "uv": [52, 6]}
+					]
+				},
+				{
+					"name": "frontLegLeft",
+					"parent": "body",
+					"pivot": [3, 3.9, -1],
+					"rotation": [10, 0, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [2, -3.1, -2], "size": [2, 7, 2], "uv": [8, 15]}
+					]
+				},
+				{
+					"name": "frontLegRight",
+					"parent": "body",
+					"pivot": [-3, 3.9, -1],
+					"rotation": [10, 0, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-4, -3.1, -2], "size": [2, 7, 2], "uv": [0, 15]}
+					]
+				}
+			]
+		}
+	]
+}

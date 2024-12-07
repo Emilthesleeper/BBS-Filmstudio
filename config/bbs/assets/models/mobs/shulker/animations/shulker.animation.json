@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"animation_length": 4,
+			"bones": {
+				"lid": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 10, 0],
+						"2.0": [0, 10, 0],
+						"3.0": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": ["query.head_pitch", "query.head_yaw", 0]
+				}
+			}
+		},
+		"open": {
+			"loop": true,
+			"bones": {
+				"lid": {
+					"position": ["linear", "linear", "linear"]
+				},
+				"head": {
+					"rotation": ["query.head_pitch", "query.head_yaw", 0]
+				}
+			}
+		}
+	}
+}

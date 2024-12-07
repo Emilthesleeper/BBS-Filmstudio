@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": ["query.head_pitch", "query.head_yaw", 0],
+						"easing": "linear"
+					}
+				},
+				"fin_left": {
+					"rotation": {
+						"vector": ["-2.5+math.cos(query.anim_time * 135) * 2", 0, "0+math.sin(query.anim_time * 135) * 2"],
+						"easing": "linear"
+					}
+				},
+				"fin_right": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time * 135) * 2", 0, "-math.sin(query.anim_time * 135) * 2"],
+						"easing": "linear"
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
