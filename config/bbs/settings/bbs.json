@@ -13,11 +13,11 @@
         "center_lines": false,
         "duration": 30,
         "layout": {
-            "editor_size_v": 0.61346155,
+            "editor_size_v": 0.6557692,
             "horizontal": false,
-            "main_size_h": 0.40384614,
-            "editor_size_h": 0.4829787,
-            "main_size_v": 0.59893614
+            "main_size_h": 0.41153848,
+            "editor_size_h": 0.42127657,
+            "main_size_v": 0.456383
         },
         "crosshair": false,
         "periodic_save": 90,
