@@ -57,6 +57,7 @@
     "toolItemEnabled": true,
     "unhideSchematicVCS": false,
     "pasteReplaceBehavior": "none",
+    "schematicVcsDeleteMode": "matching_block",
     "selectionCornersMode": "corners",
     "commandFillMaxVolume": 32768,
     "commandLimitPerTick": 64,
@@ -87,7 +88,7 @@
       "keys": "F12"
     },
     "executeOperation": {
-      "keys": ""
+      "keys": "F7"
     },
     "invertGhostBlockRenderState": {
       "keys": ""
@@ -192,6 +193,9 @@
       "keys": ""
     },
     "schematicEditReplaceDirection": {
+      "keys": ""
+    },
+    "schematicVCSDeleteBlockByPlacement": {
       "keys": ""
     },
     "schematicVersionCycleModifier": {

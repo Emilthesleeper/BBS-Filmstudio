@@ -1,5 +1,6 @@
 {
     "editor": {
+        "angle_speed": 1.0,
         "onion_skin": {
             "all": false,
             "pre_frames": 1,
@@ -11,38 +12,86 @@
         },
         "snap_to_markers": false,
         "horizontal_flight": false,
+        "speed": 1.0,
         "center_lines": false,
+        "clip_preview": true,
         "duration": 30,
         "layout": {
-            "editor_size_v": 0.6846154,
+            "editor_size_v": 0.63461536,
             "horizontal": false,
             "main_size_h": 0.41153848,
             "editor_size_h": 0.42127657,
-            "main_size_v": 0.38723403
+            "main_size_v": 0.37659574
         },
         "crosshair": false,
         "periodic_save": 90,
         "seconds": false,
+        "rewind": true,
         "rule_of_thirds": false,
         "loop": false,
         "guides_color": -859045888,
         "jump": 5
     },
+    "tweaks": {
+        "server_id": "",
+        "asset_manager": "1c93ff1f-aeca-4615-a6e1-aa6971e392bc"
+    },
+    "recording": {
+        "swipe_damage": false,
+        "overlays": true,
+        "countdown": 1.0
+    },
+    "multiskin": {
+        "multithreaded": true
+    },
+    "video": {
+        "settings": {
+            "heldFrames": 1,
+            "frameRate": 60,
+            "motionBlur": 0,
+            "width": 1920,
+            "arguments": "-f rawvideo -pix_fmt bgr24 -s %WIDTH%x%HEIGHT% -r %FPS% -i - -vf %FILTERS% -c:v libx264 -preset ultrafast -tune zerolatency -qp 18 -pix_fmt yuv420p %NAME%.mp4",
+            "exportPath": "C:\\Users\\emilw\\Documents\\Canstein\\2024\\Adventskalender\\Teil4",
+            "height": 1080
+        },
+        "log": true,
+        "encoder_path": "ffmpeg"
+    },
+    "elevenlabs": {
+        "all_voices": true,
+        "model": {
+            "similarity": 0.5,
+            "id": "eleven_monolingual_v1",
+            "stability": 0.5
+        },
+        "colors": {
+            "kris klingenberg": 65291
+        },
+        "token": "sk_e55fd1f33eb1668fb667a931678cea87628d49ed4847d54f"
+    },
+    "model_blocks": {
+        "render_all": true,
+        "click": true
+    },
     "appearance": {
         "freeze_models": false,
         "hsv_color_picker": true,
-        "favorite_colors": [],
         "ui_scale": 2,
         "language": "",
-        "trackpad_increments": true,
-        "axes_scale": 1.0,
+        "click_sound": false,
         "primary_color": 13131059,
         "fov": 110.0,
-        "version": "ea7",
+        "favorite_colors": [],
+        "trackpad_increments": true,
+        "axes_scale": 1.0,
+        "disabled_sheets": [],
         "tooltip_style": 1,
-        "force_qwerty": false
+        "force_qwerty": false,
+        "uniform_scale": false
     },
     "scrollbars": {
+        "sensitivity_horizontal": 1.0,
+        "smoothness": true,
         "shadow": -2013265920,
         "width": 4,
         "sensitivity": 1.0
@@ -58,30 +107,8 @@
         "image": "assets:textures/anchor.png",
         "color": -1157627904
     },
-    "tweaks": {
-        "server_id": "",
-        "asset_manager": ""
-    },
-    "recording": {
-        "next": 1,
-        "swipe_damage": false,
-        "countdown": 1.0
-    },
-    "multiskin": {
-        "multithreaded": true
-    },
-    "video": {
-        "settings": {
-            "heldFrames": 1,
-            "frameRate": 60,
-            "motionBlur": 0,
-            "width": 1920,
-            "arguments": "-f rawvideo -pix_fmt bgr24 -s %WIDTH%x%HEIGHT% -r %FPS% -i - -vf %FILTERS% -c:v libx264 -preset ultrafast -tune zerolatency -qp 18 -pix_fmt yuv420p %NAME%.mp4",
-            "exportPath": "",
-            "height": 1080
-        },
-        "log": true,
-        "encoder_path": "ffmpeg"
+    "entity_selectors": {
+        "whitelist": "CustomName,Name"
     },
     "audio": {
         "waveform_density": 20,
@@ -93,15 +120,5 @@
     },
     "dc": {
         "enabled": true
-    },
-    "elevenlabs": {
-        "all_voices": false,
-        "model": {
-            "similarity": 0.5,
-            "id": "eleven_monolingual_v1",
-            "stability": 0.5
-        },
-        "colors": {},
-        "token": ""
     }
 }
